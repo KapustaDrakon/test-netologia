@@ -1,0 +1,136 @@
+@media (max-width: 1160px) {
+  .guide__container {
+    position: absolute;
+    bottom: -257px;
+    width: 238px;
+    height: 257px;
+    background-color: rgba(255, 253, 253, 0.1);
+    border-radius: 30px;
+    z-index: 1;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .guide__title {
+    margin-top: 16px;
+    color: #ffffff;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    align-content: center;
+    width: 143px;
+    height: 30px;
+    border-radius: 100px;
+    outline: 1px solid #ffffff;
+  }
+
+  .guide__star {
+    position: absolute;
+    top: 70px;
+    left: 49px;
+    width: 83px;
+    height: 83px;
+    background: url('../../assets/images/Star-Icon.svg');
+  }
+
+  .guide__lightning {
+    position: absolute;
+    top: 41px;
+    right: 23px;
+    width: 118px;
+    height: 118px;
+    background: url('../../assets/images/Lightning-Icon.svg');
+  }
+
+  .guide__text {
+    width: 239px;
+    height: 63px;
+    margin-top: 117px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 16px;
+  }
+}
+
+@media (min-width: 1161px) {
+  .guide__container {
+    position: absolute;
+    right: 34px;
+    bottom: 120px;
+    width: 303px;
+    height: 257px;
+    background-color: rgba(255, 253, 253, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 30px;
+    z-index: 1;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    transform: translate(0px, 120%);
+    opacity: 0;
+    transition: all 0.8s ease 0s;
+  }
+
+  .guide__star {
+    position: absolute;
+    top: -73px;
+    right: 34px;
+    width: 105px;
+    height: 105px;
+    background: url('../../assets/images/Star-Icon2.svg');
+  }
+
+  .guide__lightning {
+    position: absolute;
+    top: -35px;
+    right: -40px;
+    width: 166px;
+    height: 166px;
+    background: url('../../assets/images/Lightning-Icon2.svg');
+
+    animation: rotateAnimation 2s ease-in-out forwards;
+  }
+
+  @keyframes rotateAnimation {
+    from {
+      transform: none;
+    }
+    to {
+      transform: rotate(10deg);
+    }
+  }
+
+  .guide__title {
+    margin-top: 22px;
+    margin-left: 20px;
+
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    align-content: center;
+    width: 180px;
+    height: 40px;
+    border-radius: 100px;
+    outline: 1px solid #ffffff;
+  }
+
+  .guide__text {
+    width: 263px;
+    height: 84px;
+    margin-top: 84px;
+    margin-left: 20px;
+    font-size: 16px;
+    text-align: left;
+    line-height: 20px;
+  }
+
+  ._active {
+    transform: translate(0px, 0px);
+    opacity: 1;
+  }
+}

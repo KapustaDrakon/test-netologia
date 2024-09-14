@@ -1,0 +1,19 @@
+@media (max-width: 1160px) {
+  .app {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+  }
+}
+
+@media (min-width: 1161px) {
+  .app {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 25px 0 0 0;
+    width: 100%;
+  }
+}

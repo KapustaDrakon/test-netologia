@@ -1,0 +1,319 @@
+@media (max-width: 1160px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-bottom: 310px;
+  }
+
+  .header__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 320px;
+    height: 556px;
+    background:
+      url('../../assets/images/devochka.svg') no-repeat center bottom,
+      radial-gradient(#55e2af, #002a6a);
+    border-radius: 50px;
+  }
+
+  .header__inner {
+    position: absolute;
+    bottom: -40px;
+    left: 25px;
+    width: 273px;
+    height: 80px;
+    background: #1f1f1f;
+    border-radius: 100px;
+  }
+
+  .header__container::before {
+    position: absolute;
+    content: '';
+    top: -15px;
+    left: -22px;
+    width: 84px;
+    height: 93px;
+    background: #1f1f1f;
+    border-bottom-right-radius: 50px;
+  }
+
+  .header__inner-top-left::before {
+    content: '';
+    position: absolute;
+    background-color: transparent;
+    top: 0;
+    left: 62px;
+    height: 50px;
+    width: 25px;
+    border-top-left-radius: 50px;
+    box-shadow: 0 -25px 0 0 #1f1f1f;
+  }
+
+  .header__inner-top-left::after {
+    content: '';
+    position: absolute;
+    background-color: transparent;
+    top: 76px;
+    left: 0;
+    height: 25px;
+    width: 44px;
+    border-top-left-radius: 50px;
+    box-shadow: -25px 0 0 0 #1f1f1f;
+  }
+
+  .header__container::after {
+    position: absolute;
+    content: '';
+    top: -15px;
+    right: -22px;
+    width: 84px;
+    height: 93px;
+    background: #1f1f1f;
+    border-bottom-left-radius: 50px;
+  }
+
+  .header__inner-top-right::before {
+    content: '';
+    position: absolute;
+    background-color: transparent;
+    top: 0;
+    right: 62px;
+    width: 25px;
+    height: 50px;
+    border-top-right-radius: 50px;
+    box-shadow: 0 -25px 0 0 #1f1f1f;
+  }
+
+  .header__inner-top-right::after {
+    content: '';
+    position: absolute;
+    background-color: transparent;
+    top: 76px;
+    right: 0;
+    height: 25px;
+    width: 44px;
+    border-top-right-radius: 50px;
+    box-shadow: 25px 0 0 0 #1f1f1f;
+  }
+
+  .header__title {
+    margin: 0;
+    margin-top: 33px;
+    margin-bottom: 5px;
+    font-family: 'Golos DemiBold';
+    font-size: 35px;
+    text-align: center;
+    line-height: 30px;
+    width: 300px;
+    height: 90px;
+  }
+
+  .header__title-etc {
+    font-size: 12px;
+  }
+
+  .header__menu-button {
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    width: 39px;
+    height: 16px;
+    border: none;
+    background: url('../../assets/images/Menu-Icon.svg');
+    cursor: pointer;
+    z-index: 1;
+  }
+}
+
+@media (min-width: 1161px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-bottom: 125px;
+  }
+
+  .header__container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+    width: 1161px;
+    height: 614px;
+    background: /*url("../assets/images/devochka2.svg") no-repeat center,*/ radial-gradient(#55e2af, #002a6a);
+    border-radius: 50px;
+  }
+
+  .header__devochka {
+    position: absolute;
+    width: 623px;
+    height: 651px;
+    top: 0;
+    left: 260px;
+    background: url('../../assets/images/devochka2.svg');
+
+    transform: translate(0px, 50px);
+    opacity: 0;
+    transition: all 0.8s ease 0s;
+  }
+
+  .header__inner {
+    position: absolute;
+    bottom: -108px;
+    left: 380px;
+    width: 400px;
+    height: 219px;
+    background: #1f1f1f;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+  }
+
+  .header__inner::before {
+    content: '';
+    position: absolute;
+    background-color: transparent;
+    bottom: 108px;
+    left: -30px;
+    width: 30px;
+    height: 60px;
+    border-bottom-right-radius: 100px;
+    box-shadow: 0 30px 0 0 #1f1f1f;
+  }
+
+  .header__inner::after {
+    content: '';
+    position: absolute;
+    background-color: transparent;
+    bottom: 108px;
+    right: -30px;
+    width: 30px;
+    height: 60px;
+    border-bottom-left-radius: 100px;
+    box-shadow: 0 30px 0 0 #1f1f1f;
+  }
+
+  .header__container::before {
+    position: absolute;
+    content: '';
+    top: -16px;
+    left: -80px;
+    width: 303px;
+    height: 101px;
+    background: #1f1f1f;
+    border-bottom-right-radius: 50px;
+  }
+
+  .header__inner-top-left::before {
+    content: '';
+    position: absolute;
+    background-color: transparent;
+    top: 0;
+    left: 223px;
+    height: 50px;
+    width: 25px;
+    border-top-left-radius: 50px;
+    box-shadow: 0 -25px 0 0 #1f1f1f;
+  }
+
+  .header__inner-top-left::after {
+    content: '';
+    position: absolute;
+    background-color: transparent;
+    top: 85px;
+    left: 0;
+    height: 25px;
+    width: 44px;
+    border-top-left-radius: 50px;
+    box-shadow: -25px 0 0 0 #1f1f1f;
+  }
+
+  .header__container::after {
+    position: absolute;
+    content: '';
+    top: -16px;
+    right: -75px;
+    width: 303px;
+    height: 101px;
+    background: #1f1f1f;
+    border-bottom-left-radius: 50px;
+  }
+
+  .header__inner-top-right::before {
+    content: '';
+    position: absolute;
+    background-color: transparent;
+    top: 0;
+    right: 228px;
+    width: 25px;
+    height: 50px;
+    border-top-right-radius: 50px;
+    box-shadow: 0 -25px 0 0 #1f1f1f;
+  }
+
+  .header__inner-top-right::after {
+    content: '';
+    position: absolute;
+    background-color: transparent;
+    top: 85px;
+    right: 0;
+    height: 25px;
+    width: 44px;
+    border-top-right-radius: 50px;
+    box-shadow: 25px 0 0 0 #1f1f1f;
+  }
+
+  .header__title {
+    margin-top: 265px;
+    margin-left: 25px;
+    margin-bottom: 5px;
+    font-family: 'Golos DemiBold';
+    font-size: 65px;
+    text-align: left;
+    line-height: 65px;
+    width: 480px;
+    height: 195px;
+
+    transform: translate(0px, 120%);
+    opacity: 0;
+    transition: all 0.8s ease 0s;
+  }
+
+  .header__title-etc {
+    font-size: 20px;
+    margin-left: 25px;
+    line-height: 70px;
+
+    transform: translate(0px, 120%);
+    opacity: 0;
+    transition: all 0.8s ease 0s;
+  }
+
+  .header__menu-button {
+    position: absolute;
+    top: 0;
+    right: 17px;
+    width: 185px;
+    height: 68px;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    z-index: 1;
+  }
+
+  .header__menu-button::after {
+    content: 'Меню';
+    font-size: 20px;
+    font-family: 'Golos Regular';
+  }
+
+  ._active {
+    transform: translate(0px, 0px);
+    opacity: 1;
+  }
+}
