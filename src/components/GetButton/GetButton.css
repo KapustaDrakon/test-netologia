@@ -1,0 +1,37 @@
+@media (max-width: 1160px) {
+  .header__get-button {
+    margin-top: 20px;
+    width: 263px;
+    height: 53px;
+    border-radius: 100px;
+    border: none;
+    background-color: #ffffff;
+    font-family: 'Golos Regular';
+    font-size: 12px;
+    cursor: pointer;
+  }
+}
+
+@media (min-width: 1161px) {
+  .header__get-button {
+    position: absolute;
+    left: 424px;
+    bottom: 15px;
+    width: 313px;
+    height: 68px;
+    border-radius: 100px;
+    border: none;
+    background-color: #ffffff;
+    font-family: 'Golos Regular';
+    font-size: 20px;
+    cursor: pointer;
+    z-index: 2;
+    transition: all 0.3s ease 0s;
+  }
+
+  .header__get-button:hover {
+    background-color: black;
+    color: #ffffff;
+    transition: all 0.3s ease 0s;
+  }
+}

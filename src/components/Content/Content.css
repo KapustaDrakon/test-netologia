@@ -1,0 +1,169 @@
+@media (max-width: 1160px) {
+  .content {
+    background: url('../../assets/images/MainImage.svg') no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    z-index: 2;
+  }
+
+  .content__container {
+    width: 301px;
+    height: 287px;
+    background-color: #1f1f1f;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+  }
+
+  .content__container-inner {
+    position: absolute;
+    top: -43px;
+    left: 0;
+    background: #1f1f1f;
+    width: 239px;
+    height: 43px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 10px;
+  }
+
+  .content__container-inner::after {
+    content: '';
+    position: absolute;
+    top: 18px;
+    right: -14px;
+    width: 15px;
+    height: 25px;
+    background: transparent;
+    border-bottom-left-radius: 20px;
+    box-shadow: 0 14px 0 0 #1f1f1f;
+  }
+
+  .content__number {
+    width: 101px;
+    height: 30px;
+    text-align: center;
+    position: absolute;
+    top: 22px;
+    left: 105px;
+    font-family: 'Golos DemiBold';
+    font-size: 30px;
+    line-height: 30px;
+  }
+
+  .content__title {
+    width: 242px;
+    height: 75px;
+    text-align: center;
+    margin: 64px 0 31px 0;
+    font-family: 'Golos DemiBold';
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  .content__text {
+    width: 291px;
+    height: 80px;
+    font-size: 12px;
+    line-height: 16px;
+    opacity: 0.8;
+    text-align: center;
+  }
+}
+
+@media (min-width: 1161px) {
+  .content {
+    background: url('../../assets/images/MainImage.svg') no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    z-index: 2;
+  }
+
+  .content__container {
+    width: 560px;
+    height: 461px;
+    background-color: #1f1f1f;
+
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+  }
+
+  .content__container-inner {
+    position: absolute;
+    top: -73px;
+    left: 0;
+    background: #1f1f1f;
+    width: 420px;
+    height: 73px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 10px;
+  }
+
+  .content__container-inner::after {
+    content: '';
+    position: absolute;
+    top: 48px;
+    right: -14px;
+    width: 15px;
+    height: 25px;
+    background: transparent;
+    border-bottom-left-radius: 20px;
+    box-shadow: 0 14px 0 0 #1f1f1f;
+  }
+
+  .content__number {
+    width: 101px;
+    height: 50px;
+    position: absolute;
+    top: 204px;
+    left: 44px;
+    font-family: 'Golos DemiBold';
+    font-size: 70px;
+    line-height: 50px;
+  }
+
+  .content__title {
+    width: 360px;
+    height: 90px;
+    margin: -26px 0 219px 43px;
+    font-family: 'Golos DemiBold';
+    font-size: 30px;
+    line-height: 30px;
+    z-index: 1;
+  }
+
+  .content__text {
+    margin-left: 42px;
+    width: 449px;
+    height: 125px;
+    font-size: 18px;
+    line-height: 25px;
+    opacity: 0.8;
+  }
+}
